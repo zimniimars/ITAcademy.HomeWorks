@@ -13,7 +13,18 @@ namespace HW04.Task2
             Console.WriteLine("Введите второе число");
             num2 = double.Parse(Console.ReadLine());
             double num3 = num1 + num2;
-            Console.WriteLine("Сумма чисел = " + num3 );
+            Console.WriteLine("Введите сумму чисел");
+            double sum1 = double.Parse(Console.ReadLine());
+
+            if (sum1 == num3)
+            {
+                Console.WriteLine("Правильно");
+            }
+            else
+            {
+                Console.WriteLine("Неправильно");
+            }
         }
+     
     }
 }
