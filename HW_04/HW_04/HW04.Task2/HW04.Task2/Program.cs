@@ -20,10 +20,15 @@ namespace HW04.Task2
             {
                 Console.WriteLine("Правильно");
             }
-            else
+            else if (sum1 < num3)
             {
-                Console.WriteLine("Неправильно");
+                Console.WriteLine("Неправильно. Ожидалось большее число");
             }
+            else if (sum1 > num3)
+            {
+                Console.WriteLine("Неправильно. Ожидалось меньшее число");
+            }
+
         }
      
     }
